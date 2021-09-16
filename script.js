@@ -15,12 +15,12 @@ document.querySelector('#contador').addEventListener('submit', (event)=>{
         for(let i = Number(inicio); i >= Number(fim); i -= Number(passo)){
             validaPasso();
             r.innerHTML += ` ${i} &#x1F449;`
-        }r.innerHTML += ' &#x1F3C1'
+        }r.innerHTML += ' &#x1F3C1;'
     }else{
         for(let i = Number(inicio); i <= Number(fim); i += Number(passo)){
             validaPasso();
             r.innerHTML += ` ${i} &#x1F449;`    
-        }r.innerHTML += ' &#x1F3C1'
+        }r.innerHTML += ' &#x1F3C1;'
     } 
 
     function validaPasso(){
